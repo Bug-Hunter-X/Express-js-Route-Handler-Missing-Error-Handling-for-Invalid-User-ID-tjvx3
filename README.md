@@ -1,0 +1,3 @@
+# Express.js Route Handler Missing Error Handling for Invalid User ID
+
+This repository demonstrates a common error in Express.js route handlers: the lack of error handling for invalid input parameters.  The example shows a route that fetches a user by ID.  If the ID is not a valid number, the application crashes without providing informative feedback to the user. The solution demonstrates the proper way to handle this error using try...catch and input validation.
